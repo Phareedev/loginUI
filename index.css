@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+}
+
+
+.logo img {
+    width: 80px;
+    margin-bottom: 40px;
+}
+
+.first-box {
+    background-color: white;
+    padding: 80px 20px 200px 20px;
+}
+
+.first-box h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.top-header p {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 35px;
+}
+
+.input-field1 {
+    width: 100%;
+    border-radius: 10px;
+    padding: 7px;
+    border: 2px solid lightgrey;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.input-field1:focus {
+    border: 2px solid grey;
+    outline: none;
+}
+
+.input-field2 {
+    width: 100%;
+    border-radius: 10px;
+    padding: 7px;
+    border: 2px solid lightgrey;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.input-field2:focus {
+    border: 2px solid grey;
+    outline: none;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.check-password {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.check {
+    font-size: 13px;
+}
+
+.button1 {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    opacity: 0.4;
+}
+
+.button2 {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 5px 0;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.button2 img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.button2:focus {
+    outline: none;
+    border: 2px solid grey;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons .sign {
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.buttons p {
+    font-size: 14px;
+    color: grey;
+}
+
+.buttons span {
+    color: black;
+    font-size: 14px;
+}
+
+.second-box {
+    display: none;
+}
+
+.second-box {
+
+    background-image: url(./assets/person.jpg);
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+.text-box {
+    background-color: #ffffff;
+    opacity: 0.6;
+
+    color: black;
+    font-weight: bold;
+    padding: 25px 12px 20px 12px;
+   
+    width: 100%;
+   
+}
+
+.text-box p {
+    line-height: 28px;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.text-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box h2 {
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+.text-box h4 {
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text-box h5 {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.icons img {
+    width: 13px;
+
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle-arrow img {
+    width: 30px;
+}
+
+
+@media only screen and (min-width: 800px){
+    /* .logo {
+        display: none;
+    } */
+
+    .container {
+        background-color: lightgrey;
+        padding: 70px 40px;
+    }
+
+    .second-box {
+        display: block;
+    }
+
+    .first-box {
+        background-color: white;
+        padding: 80px 70px 150px 50px ;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+
+    }
+    .text-container {
+
+        align-items: center;
+        margin: 80px 10px 10px 0px;
+   
+    }
+    .first-box {
+        width: 30%;
+
+    }
+
+    .second-box {
+        width: 30%;
+
+    }
+
+    .text-container {
+
+        align-items: center;
+        padding: 430px 25px 25px 25px;
+
+    }
+
+}
